@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 36% 96.1%;
+  --surface: 0 0% 100%;
+  --primary: 240 5.9% 47.5%;
+  --accent: 208 40.9% 52.9%;
+  --text-primary: 240 5.9% 10%;
+  --text-secondary: 240 5.9% 30%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.floating-shapes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.shape {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.1;
+  animation: float 6s ease-in-out infinite;
+}
+
+.shape:nth-child(1) {
+  top: 10%;
+  left: 10%;
+  width: 80px;
+  height: 80px;
+  background: #ff6b6b;
+  animation-delay: 0s;
+}
+
+.shape:nth-child(2) {
+  top: 20%;
+  right: 10%;
+  width: 120px;
+  height: 120px;
+  background: #4ecdc4;
+  animation-delay: 2s;
+}
+
+.shape:nth-child(3) {
+  bottom: 20%;
+  left: 20%;
+  width: 100px;
+  height: 100px;
+  background: #45b7d1;
+  animation-delay: 4s;
+}
+
+.shape:nth-child(4) {
+  bottom: 10%;
+  right: 20%;
+  width: 60px;
+  height: 60px;
+  background: #f9ca24;
+  animation-delay: 1s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.text-display {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.text-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.text-body {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.text-caption {
+  font-size: 0.875rem;
+  color: hsl(var(--text-secondary));
+}
+
+@media (max-width: 768px) {
+  .text-display {
+    font-size: 2rem;
+  }
+}
