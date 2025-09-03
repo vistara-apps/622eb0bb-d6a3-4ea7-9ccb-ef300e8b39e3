@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Like2Tip",
+    "subtitle": "Built with Zara",
+    "description": "Like2Tip is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://622eb0bbd6a34ea79ccbef300e8b39e3-kcmx-2q0xzkj0v-vistara.vercel.app",
+    "splashImageUrl": "https://622eb0bbd6a34ea79ccbef300e8b39e3-kcmx-2q0xzkj0v-vistara.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://622eb0bbd6a34ea79ccbef300e8b39e3-kcmx-2q0xzkj0v-vistara.vercel.app/image.png",
+    "tagline": "Like2Tip",
+    "screenshotUrls": [
+      "https://622eb0bbd6a34ea79ccbef300e8b39e3-kcmx-2q0xzkj0v-vistara.vercel.app/screenshot.png",
+      "https://622eb0bbd6a34ea79ccbef300e8b39e3-kcmx-2q0xzkj0v-vistara.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://622eb0bbd6a34ea79ccbef300e8b39e3-kcmx-2q0xzkj0v-vistara.vercel.app/api/webhook"
+  }
+}

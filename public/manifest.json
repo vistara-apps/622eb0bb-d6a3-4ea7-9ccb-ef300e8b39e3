@@ -1,0 +1,14 @@
+{
+  "name": "Like2Tip",
+  "description": "Like2Tip is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://622eb0bb-d6a3-4ea7-9ccb-ef300e8b39e3.vistara.dev",
+  "properties": {
+    "app": {
+      "name": "Like2Tip",
+      "description": "Like2Tip is a Base Mini App built with Zara.",
+      "url": "https://622eb0bb-d6a3-4ea7-9ccb-ef300e8b39e3.vistara.dev",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
