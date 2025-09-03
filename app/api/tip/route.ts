@@ -8,7 +8,7 @@ export async function POST(request: NextRequest) {
     const headersList = headers();
     
     // Verify the request is from Farcaster
-    const farcasterSignature = headersList.get('x-farcaster-signature');
+    const farcasterSignature = request.headers.get('x-farcaster-signature');
     
     if (!farcasterSignature) {
       return NextResponse.json(

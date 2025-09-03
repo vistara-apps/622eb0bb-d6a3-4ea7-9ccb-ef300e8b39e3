@@ -30,7 +30,7 @@ export default function Header() {
             Help
           </button>
           {address ? (
-            <Identity address={address} />
+            <Identity address={address}>{address}</Identity>
           ) : (
             <ConnectWallet className="bg-white/10 hover:bg-white/20 text-white border border-white/20" />
           )}

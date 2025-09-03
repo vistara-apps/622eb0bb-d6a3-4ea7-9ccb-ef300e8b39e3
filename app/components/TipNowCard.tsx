@@ -66,7 +66,7 @@ export default function TipNowCard() {
             <TransactionStatus
               status={transactionStatus.status}
               hash={transactionStatus.hash}
-              error={error}
+              error={error || undefined}
             />
           )}
         </div>
